@@ -39,3 +39,53 @@ header {
 .nav-links a:hover {
     color: #d291bc;
 }
+
+
+/* Agrega este estilo al final de la pagina */
+
+footer {
+    background-color: #574b42;
+    color: #f8e8d5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-info,
+.social-media {
+    flex: 1;
+}
+
+.footer-info h2,
+.social-media h2 {
+    border-bottom: 2px solid #f8e8d5;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Cambia el color de los enlaces en el footer */
+.footer-info a,
+.social-media a {
+    color: #f8e8d5;
+}
+
+/* Cambia el color de los enlaces al pasar el ratón sobre ellos */
+.footer-info a:hover,
+.social-media a:hover {
+    color: #d291bc;
+}
