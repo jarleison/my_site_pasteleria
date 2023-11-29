@@ -40,8 +40,11 @@ header {
     color: #d291bc;
 }
 
-
-/* Agrega este estilo al final de la pagina */
+.hbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 footer {
     background-color: #574b42;
